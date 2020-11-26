@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-11-26T12:38:45.989Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="riVrg0tQnIht_t_pTgxM" version="13.10.3" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-26T13:03:44.430Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="twf6xW-IiD3Wwo2ObWR1" version="13.10.3" type="github">
   <diagram id="9BhJvG1YheT70fT9A_iJ" name="第 1 页">
-    <mxGraphModel dx="855" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1682" dy="428" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -155,6 +155,54 @@
         </mxCell>
         <mxCell id="ku9lQlpiuaTnmv-eHWmi-49" value="判断FactoryBean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
           <mxGeometry x="755" y="770" width="110" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ku9lQlpiuaTnmv-eHWmi-51" target="ku9lQlpiuaTnmv-eHWmi-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-51" value="MyFactoryBean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="970" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-52" value="new User" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="1060" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-55" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ku9lQlpiuaTnmv-eHWmi-53" target="ku9lQlpiuaTnmv-eHWmi-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-53" value="UserService" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-54" value="FactoryBean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="940" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-56" value="属性User" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="1170" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-58" value="getObject" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="85" y="1020" width="70" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-59" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="1170" as="sourcePoint" />
+            <mxPoint x="340" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-60" value="allBeanNamesByType" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="1140" width="130" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-61" value="myFactoryBean" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="344" y="1160" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-62" value="FactoryBeanObjectCache" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1070" width="150" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-64" value="context.getBean(&quot;myFactoryBean&quot;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1070" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-65" value="singletonObjects" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="970" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ku9lQlpiuaTnmv-eHWmi-66" value="context.getBean(&quot;&amp;amp;myFactoryBean&quot;)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="385" y="970" width="210" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
